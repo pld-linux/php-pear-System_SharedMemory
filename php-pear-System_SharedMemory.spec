@@ -5,7 +5,7 @@
 %define		_pearname	System_SharedMemory
 
 Summary:	%{_pearname} - common OO-style shared memory API
-Summary(pl):	%{_pearname} - wsp髄ny, obiektowy interfejs do API pami阠i wsp蟪dzielonej
+Summary(pl.UTF-8):   %{_pearname} - wsp贸lny, obiektowy interfejs do API pami臋ci wsp贸艂dzielonej
 Name:		php-pear-%{_pearname}
 Version:	0.9.0RC1
 Release:	1
@@ -26,9 +26,9 @@ OO-style shared memory API for several shared memory engines.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Zorientowane obiektowo API pami阠i wsp蟪dzielonej dla r罂nych
-silnik體.
+%description -l pl.UTF-8
+Zorientowane obiektowo API pami臋ci wsp贸艂dzielonej dla r贸偶nych
+silnik贸w.
 
 Ta klasa ma w PEAR status: %{_status}.
 
