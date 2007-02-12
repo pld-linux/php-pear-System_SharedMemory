@@ -5,7 +5,7 @@
 %define		_pearname	System_SharedMemory
 
 Summary:	%{_pearname} - common OO-style shared memory API
-Summary(pl.UTF-8):   %{_pearname} - wspólny, obiektowy interfejs do API pamięci współdzielonej
+Summary(pl.UTF-8):	%{_pearname} - wspólny, obiektowy interfejs do API pamięci współdzielonej
 Name:		php-pear-%{_pearname}
 Version:	0.9.0RC1
 Release:	1
