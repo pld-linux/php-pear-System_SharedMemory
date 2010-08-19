@@ -3,15 +3,16 @@
 %define		_subclass	SharedMemory
 %define		_status		beta
 %define		_pearname	System_SharedMemory
-
+%define		subver	RC1
+%define		rel		1
 Summary:	%{_pearname} - common OO-style shared memory API
 Summary(pl.UTF-8):	%{_pearname} - wspólny, obiektowy interfejs do API pamięci współdzielonej
 Name:		php-pear-%{_pearname}
-Version:	0.9.0RC1
-Release:	2
+Version:	0.9.0
+Release:	3.%{subver}.%{rel}
 License:	PHP 2.02
 Group:		Development/Languages/PHP
-Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
+Source0:	http://pear.php.net/get/%{_pearname}-%{version}%{subver}.tgz
 # Source0-md5:	0969d02662f4a7a1b67e7819bfc3f852
 URL:		http://pear.php.net/package/System_SharedMemory/
 BuildRequires:	php-pear-PEAR
