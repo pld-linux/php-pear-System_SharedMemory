@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_class		System
 %define		_subclass	SharedMemory
 %define		_status		beta
