@@ -3,7 +3,7 @@
 %define		_status		beta
 %define		_pearname	System_SharedMemory
 %define		subver	RC1
-%define		rel		1
+%define		rel		2
 Summary:	%{_pearname} - common OO-style shared memory API
 Summary(pl.UTF-8):	%{_pearname} - wspólny, obiektowy interfejs do API pamięci współdzielonej
 Name:		php-pear-%{_pearname}
